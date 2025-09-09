@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "topic": "Science",
+    "difficulty": "easy",
+    "question": "What is the chemical symbol for water?",
+    "options": ["H2O", "CO2", "NaCl", "O2"],
+    "correct": 0
+  },
+  {
+    "id": 2,
+    "topic": "Science",
+    "difficulty": "medium",
+    "question": "What is the speed of light in vacuum?",
+    "options": ["300,000 km/s", "150,000 km/s", "299,792,458 m/s", "200,000 km/s"],
+    "correct": 2
+  },
+  {
+    "id": 3,
+    "topic": "Science",
+    "difficulty": "hard",
+    "question": "What is the Heisenberg Uncertainty Principle?",
+    "options": ["Energy cannot be created or destroyed", "Position and momentum cannot be precisely known simultaneously", "Mass equals energy", "Action equals reaction"],
+    "correct": 1
+  },
+  {
+    "id": 4,
+    "topic": "History",
+    "difficulty": "easy",
+    "question": "In which year did World War II end?",
+    "options": ["1944", "1945", "1946", "1947"],
+    "correct": 1
+  },
+  {
+    "id": 5,
+    "topic": "History",
+    "difficulty": "medium",
+    "question": "Who was the first President of the United States?",
+    "options": ["Thomas Jefferson", "John Adams", "George Washington", "Benjamin Franklin"],
+    "correct": 2
+  },
+  {
+    "id": 6,
+    "topic": "History",
+    "difficulty": "hard",
+    "question": "What year did the Byzantine Empire fall?",
+    "options": ["1453", "1492", "1204", "1389"],
+    "correct": 0
+  },
+  {
+    "id": 7,
+    "topic": "Geography",
+    "difficulty": "easy",
+    "question": "What is the largest continent?",
+    "options": ["Africa", "North America", "Asia", "Europe"],
+    "correct": 2
+  },
+  {
+    "id": 8,
+    "topic": "Geography",
+    "difficulty": "medium",
+    "question": "Which river is the longest in the world?",
+    "options": ["Amazon River", "Nile River", "Mississippi River", "Yangtze River"],
+    "correct": 1
+  },
+  {
+    "id": 9,
+    "topic": "Geography",
+    "difficulty": "hard",
+    "question": "What is the smallest country in the world?",
+    "options": ["Monaco", "Nauru", "Vatican City", "San Marino"],
+    "correct": 2
+  },
+  {
+    "id": 10,
+    "topic": "Literature",
+    "difficulty": "easy",
+    "question": "Who wrote 'Romeo and Juliet'?",
+    "options": ["Charles Dickens", "William Shakespeare", "Jane Austen", "Mark Twain"],
+    "correct": 1
+  },
+  {
+    "id": 11,
+    "topic": "Literature",
+    "difficulty": "medium",
+    "question": "In which novel would you find the character Atticus Finch?",
+    "options": ["To Kill a Mockingbird", "1984", "The Great Gatsby", "Pride and Prejudice"],
+    "correct": 0
+  },
+  {
+    "id": 12,
+    "topic": "Literature",
+    "difficulty": "hard",
+    "question": "Which author wrote 'One Hundred Years of Solitude'?",
+    "options": ["Jorge Luis Borges", "Gabriel García Márquez", "Mario Vargas Llosa", "Pablo Neruda"],
+    "correct": 1
+  },
+  {
+    "id": 13,
+    "topic": "Technology",
+    "difficulty": "easy",
+    "question": "What does 'WWW' stand for?",
+    "options": ["World Wide Web", "World Web Wide", "Wide World Web", "Web Wide World"],
+    "correct": 0
+  },
+  {
+    "id": 14,
+    "topic": "Technology",
+    "difficulty": "medium",
+    "question": "Which programming language was created by Guido van Rossum?",
+    "options": ["Java", "Python", "C++", "JavaScript"],
+    "correct": 1
+  },
+  {
+    "id": 15,
+    "topic": "Technology",
+    "difficulty": "hard",
+    "question": "What does 'API' stand for in software development?",
+    "options": ["Advanced Programming Interface", "Application Programming Interface", "Automated Program Integration", "Applied Programming Implementation"],
+    "correct": 1
+  },
+  {
+    "id": 16,
+    "topic": "Sports",
+    "difficulty": "easy",
+    "question": "How many players are on a basketball team on the court at one time?",
+    "options": ["4", "5", "6", "7"],
+    "correct": 1
+  },
+  {
+    "id": 17,
+    "topic": "Sports",
+    "difficulty": "medium",
+    "question": "In which sport would you perform a slam dunk?",
+    "options": ["Volleyball", "Tennis", "Basketball", "Football"],
+    "correct": 2
+  },
+  {
+    "id": 18,
+    "topic": "Sports",
+    "difficulty": "hard",
+    "question": "Which country has won the most FIFA World Cups?",
+    "options": ["Germany", "Argentina", "Italy", "Brazil"],
+    "correct": 3
+  }
+]
