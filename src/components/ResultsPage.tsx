@@ -121,9 +121,9 @@ export const ResultsPage: React.FC<ResultsPageProps> = ({
         </div>
 
         {/* Stats */}
-        {showStats && (
+        {/* {showStats && (
           <div className="w-full max-w-2xl mb-16 animate-fade-in">
-            <div className="grid grid-cols-3 gap-8 text-center">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
               <div className="border-2 border-white p-6" style={{ borderRadius: '0' }}>
                 <div className="text-4xl font-black text-white mb-2">
                   {correctAnswers}
@@ -152,6 +152,37 @@ export const ResultsPage: React.FC<ResultsPageProps> = ({
               </div>
             </div>
           </div>
+        )} */}
+
+        {showStats && (
+          <div className="w-full max-w-2xl mb-16 animate-fade-in">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center">
+              <div className="border-2 border-white p-2 sm:p-6" style={{ borderRadius: '0' }}>
+                <div className="text-xl sm:text-4xl font-black text-white mb-1">
+                  {correctAnswers}
+                </div>
+                <div className="text-xs sm:text-sm uppercase tracking-wider text-gray-400">
+                  Correct
+                </div>
+              </div>
+              <div className="border-2 border-gray-600 p-2 sm:p-6" style={{ borderRadius: '0' }}>
+                <div className="text-xl sm:text-4xl font-black text-gray-400 mb-1">
+                  {totalQuestions - correctAnswers}
+                </div>
+                <div className="text-xs sm:text-sm uppercase tracking-wider text-gray-400">
+                  Incorrect
+                </div>
+              </div>
+              <div className="border-2 border-white p-2 sm:p-6" style={{ borderRadius: '0' }}>
+                <div className="text-xl sm:text-4xl font-black text-white mb-1">
+                  {totalQuestions}
+                </div>
+                <div className="text-xs sm:text-sm uppercase tracking-wider text-gray-400">
+                  Total
+                </div>
+              </div>
+            </div>
+          </div>
         )}
 
         {/* Action Buttons */}
@@ -163,7 +194,7 @@ export const ResultsPage: React.FC<ResultsPageProps> = ({
           >
             <div className="flex items-center justify-center space-x-2">
               <RefreshCw className="w-5 h-5" />
-              <span>Again</span>
+              <span>Play Again</span>
             </div>
           </button>
 

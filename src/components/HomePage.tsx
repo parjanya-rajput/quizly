@@ -190,7 +190,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onStartQuiz }) => {
           {error && (
             <div className="mt-4 p-4 border-2 border-red-500 text-red-500 text-center animate-fade-in">
               <p className="font-medium">{error}</p>
-              <p className="text-sm mt-2 opacity-75">Please check your API key and try again.</p>
+              <p className="text-sm mt-2 opacity-75">Please check your network and try again.</p>
             </div>
           )}
         </div>

@@ -157,7 +157,7 @@ export const QuizPage: React.FC<QuizPageProps> = ({ settings, questions, onCompl
                   <span className="text-4xl font-black">{timeLeft}</span>
                 </div>
               </div>
-              
+
               <div className="text-center">
                 <span>Question {currentQuestionIndex + 1}</span>
                 <span>{questions.length} Total</span>
@@ -175,7 +175,7 @@ export const QuizPage: React.FC<QuizPageProps> = ({ settings, questions, onCompl
                     {currentQuestion.topic}
                   </div>
                 </div>
-                
+
                 <h2 className="text-3xl font-bold leading-tight mb-8 animate-fade-in">
                   {currentQuestion.question}
                 </h2>
@@ -195,24 +195,22 @@ export const QuizPage: React.FC<QuizPageProps> = ({ settings, questions, onCompl
                       key={index}
                       onClick={() => handleAnswerSelect(index)}
                       disabled={showFeedback}
-                      className={`w-full p-6 text-left font-medium text-lg transition-all duration-300 hover:scale-105 active:scale-95 relative group ${
-                        showCorrect
+                      className={`w-full p-6 text-left font-medium text-lg transition-all duration-300 hover:scale-105 active:scale-95 relative group ${showCorrect
                           ? 'bg-green-100 text-green-900 border-2 border-green-300'
                           : showIncorrect
-                          ? 'bg-red-100 text-red-900 border-2 border-red-300'
-                          : showCorrectHighlight
-                          ? 'bg-green-50 text-green-800 border-2 border-green-200'
-                          : isSelected
-                          ? 'bg-gray-900 text-white border-2 border-white'
-                          : 'bg-transparent text-white border-2 border-gray-600 hover:border-white'
-                      }`}
+                            ? 'bg-red-100 text-red-900 border-2 border-red-300'
+                            : showCorrectHighlight
+                              ? 'bg-green-50 text-green-800 border-2 border-green-200'
+                              : isSelected
+                                ? 'bg-gray-900 text-white border-2 border-white'
+                                : 'bg-transparent text-white border-2 border-gray-600 hover:border-white'
+                        }`}
                       style={{ borderRadius: '0' }}
                     >
                       <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-4">
-                          <div className={`w-8 h-8 border-2 flex items-center justify-center font-black ${
-                            showCorrect || showIncorrect || showCorrectHighlight ? 'border-current' : 'border-gray-600 group-hover:border-white'
-                          }`}>
+                          <div className={`w-8 h-8 border-2 flex items-center justify-center font-black ${showCorrect || showIncorrect || showCorrectHighlight ? 'border-current' : 'border-gray-600 group-hover:border-white'
+                            }`}>
                             {String.fromCharCode(65 + index)}
                           </div>
                           <span>{option}</span>
