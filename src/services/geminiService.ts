@@ -15,9 +15,9 @@ export const generateQuestions = async ({
   difficulty
 }: GenerateQuestionsRequest): Promise<Question[]> => {
   try {
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
-    const difficultyInstruction = difficulty === 'mixed' 
+    const difficultyInstruction = difficulty === 'mixed'
       ? 'Mix of easy, medium, and hard questions'
       : `All questions should be ${difficulty} difficulty`;
 
@@ -59,7 +59,7 @@ Important:
     }
 
     const questions: Question[] = JSON.parse(jsonMatch[0]);
-    
+
     // Validate the response structure
     if (!Array.isArray(questions) || questions.length === 0) {
       throw new Error('No questions generated');
